@@ -1,0 +1,1 @@
+while true; do date ; echo `top  -bn2| grep -i "cpu(s)"`; done >> output.txt 
